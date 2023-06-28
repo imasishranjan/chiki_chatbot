@@ -30,7 +30,7 @@ body{
 }
 
 h2{
-    color: rgb(98, 236, 34);
+    color: rgb(23, 242, 154);
 }
 .parent{
     position: relative;
@@ -95,7 +95,9 @@ h2{
     cursor: pointer;
 }
 .name{
-    font-weight: 600;
+    font-weight: 800;
+    color: blueviolet;
+    
 }
 .footer{
     position: absolute;
@@ -104,11 +106,12 @@ h2{
     background: white;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    color: indianred;
+    color: rgb(151, 13, 250);
     padding: 15px 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     box-shadow: 0 0 3px rgb(153,153,153);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #chat-box{
     position: relative;
@@ -178,3 +181,20 @@ h2{
     border: 1px solid blueviolet;
     color: blueviolet;
 }
+
+/*chiki name colouring*/
+.C{
+    color: red;
+  }
+  .H{
+    color: yellow;
+  }
+  .I1{
+    color:rgb(10, 226, 10);
+  }
+  .K{
+    color:blue;
+  }
+  .I2{
+    color:rgb(246, 208, 15);
+  }
