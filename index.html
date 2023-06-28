@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asish's JavaScript Chatbot</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- font awesome icon cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="desc">
+            <h1 class="text">CHIKI Chat Bot</h1>
+            <h2> MOVIES | NEWS | SHOPPING | MUSIC | ENTERTAINMENT </h2>
+            <button id="init">START CHAT</button>
+        </div>
+        <div>
+            <img src="chatbot.png" alt="" class="bot-img">
+        </div>
+    </div>
+    <div id="test" style="position: fixed;top: 4rem;right: 8rem;display: none;">
+        <div class="child" id="chatbot">
+            <div class="header">
+                <div class="h-child">
+                    <img src="chatbot (1).png" alt="avatar" id="avatar">
+                    <div>
+                        <span class="name">CHIKI Bot</span>
+                        <br>
+                        <span style="color:lawngreen">online</span>
+                    </div>
+                </div>
+                <div>
+                    <button class="refBtn"><i class="fa fa-refresh" onclick="initChat()"></i></button>
+                </div>
+            </div>
+
+            <div id="chat-box">
+
+            </div>
+            <div class="footer">
+                <span>created by @Asish</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- js file  -->
+    <script src="index.js"></script>
+</body>
+</html>
