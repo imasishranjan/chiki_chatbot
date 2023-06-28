@@ -1,6 +1,6 @@
 var data= {
     chatinit:{
-        title: ["Hello <span class='emoji'> &#128075;</span>","I am your CHIKI","How can I help you?"],
+        title: ["Hello <span class='emoji'> &#128075;</span>","I am your CHIKI 🤖","How can I help you?"],
         options: ["Movies <span class='emoji'> &#128250;</span>","News","Shopping <span class='emoji'> &#128090;</span>","Music <span class='emoji'> &#127925;</span>"]
     },
     movies: {
@@ -21,9 +21,10 @@ var data= {
     },
     shopping: {
         title:["Thanks for your response","Welcome to shopping zone <span class='emoji'> &#128090;</span>","Please select one of the below options to proceed further"],
-        options:['Electronics','Beauty products','Mobiles','Men Fashion','Women fashion'],
+        options:["Flipkart","Amazon","Myntra","Meesho","Ajiolife","Shopclues","Nykaa"],
         url : {
-            
+            more:"https://www.shoppersstop.com/",
+            link:["https://flipkart.com/","https://amazon.com/","https://myntra.com/","https://meesho.com/","https://ajio.com/","https://www.shopclues.com/","https://www.nykaa.com/"]
         }
     },
     electronics: {
@@ -38,7 +39,7 @@ var data= {
         title:["Thanks for your response","Here are some beauty products for you","Click on it to know more"],
         options:['Make-up & Nails','Skin Care','Fragrance','Hair care'],
         url : {
-            more:"https://www.youtube.com/@webhub/videos",
+            more:"https://www.youtube.com/",
             link:["#","#","#","#"]
         }
     },
@@ -54,7 +55,7 @@ var data= {
         title:["Thanks for your response","These are some results based on your input","Click on it to know more"],
         options:['Clothing','Shirts','T-shirts','Innerwear','Jeans'],
         url : {
-            more:"https://www.youtube.com/@webhub/videos",
+            more:"https://www.youtube.com/",
             link:["#","#","#","#","#"]
         }
     },
@@ -115,9 +116,9 @@ var len1= data.chatinit.title.length;
 
 function showChatBot(){
     console.log(this.innerText);
-    if(this.innerText=='START CHAT'){
+    if(this.innerText=='START CHAT👋'){
         document.getElementById('test').style.display='block';
-        document.getElementById('init').innerText='CLOSE CHAT';
+        document.getElementById('init').innerText='CLOSE CHAT✋';
         initChat();
     }
     else{
